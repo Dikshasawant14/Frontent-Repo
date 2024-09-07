@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #ec560c;
+        }
+
+        .ear {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position: relative;
+        }
+
+        #ear-1 {
+            border-radius: 70% 35% 70% 35% / 70% 35% 70% 35%;
+            left: 150px;
+            top: 300px;
+        }
+
+        #ear-2 {
+            border-radius: 35% 70% 35% 70% / 35% 70% 35% 70%;
+            left: 450px;
+            top: 200px;
+        }
+
+        .face {
+            height: 400px;
+            width: 500px;
+            background-color: aliceblue;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            margin: 100px;
+            position: relative;
+            z-index: 0;
+            z-index: 0;
+        }
+
+        .eye {
+            height: 150px;
+            width: 150px;
+            background-color: black;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        #eye1 {
+            border-radius: 70% 35% 70% 35% / 70% 35% 70% 35%;
+            left: 70px;
+            top: 100px;
+        }
+
+        #eye2 {
+            left: 280px;
+            bottom: 50px;
+            border-radius: 35% 70% 35% 70% / 35% 70% 35% 70%;
+        }
+
+        .light{
+            height: 40px;
+            width: 40px;
+            background-color:white;
+            border-radius: 50%;
+            position: relative;
+        }
+        #l1{
+            left: 90px;
+            top: 40px;
+        }
+        #l2{
+            left: 15px;
+            top: 40px;
+        }
+        .b{
+            height: 40px;
+            width: 40px;
+            background-color: pink;
+            border-radius: 50%;
+            position: relative;
+            z-index: -1;
+        }
+        #b1{
+            left: 50px;
+            bottom: 80px;
+        }
+        
+        #b2{
+         left: 400px;
+         bottom: 110px;
+        }
+        .nose
+        {
+         background-color: black;
+         height: 40px;
+         width: 50px;
+         border-radius: 50%;
+        position: relative;
+        left: 230px;
+        bottom: 120px;
+        }
+        .mouth{
+            height: 20px;
+            width: 40px;
+            border: 6px solid black;
+            border-radius: 50% 49% 50% 50% / 0% 0% 100% 100%;
+            border-top: none;
+            position: relative;
+        }
+        #m1{
+            left: 205px;
+            bottom: 120px;
+        }
+        #m2{
+            left: 254px;
+            bottom: 148px;
+        }
+        .hand{
+            height: 150px;
+            width: 150px;
+            background-color: black;
+            position: relative;
+            z-index: -1;
+            
+        }
+
+        #h1 {
+            left: 45px;
+            bottom: 120px;
+            border-radius: 65% 35% 79% 21% / 63% 32% 68% 37%; 
+        }
+        #h2 {
+            left: 300px;
+            bottom: 280px;
+            border-radius: 45% 100% 45% 100% / 45% 80% 45% 100%;
+        }
+        .stomach{
+            height:450px;
+            width: 450px;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+           background-color: white;
+           position: relative;
+           left: 25px;
+           bottom: 400px;
+           z-index: -1;
+           border: 4px solid black;
+           z-index: 0;
+         }
+         .leg{
+            height: 150px;
+            width: 150px;
+            background-color: black;
+            position: relative;
+            z-index: -1;
+            
+        }
+
+        #leg1 {
+            left: 80px;
+            bottom: 500px;
+            border-radius: 70% 35% 70% 35% / 70% 35% 70% 35%;
+        }
+
+        #leg2 {
+            left: 300px;
+            bottom: 650px;
+            border-radius: 35% 70% 35% 70% / 35% 70% 35% 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ear" id="ear-1"></div>
+    <div class="ear" id="ear-2"></div>
+    <div class="face">
+        <div class="eye" id="eye1">
+            <div class="light" id="l1"></div>
+        </div>
+        <div class="eye" id="eye2">
+            <div class="light" id="l2"></div>
+        </div>
+        <div class="b" id="b1"></div>
+        <div class="b" id="b2"></div>
+      <div class="nose"></div>
+      <div class="mouth" id="m1"></div>
+      <div class="mouth" id="m2"></div>
+      <div class="hand" id="h1"></div>
+      <div class="hand" id="h2"></div>
+      <div class="stomach"></div>
+      <div class="leg" id="leg1"></div>
+      <div class="leg" id="leg2"></div>
+
+
+    </div>
+</body>
+
+</html>

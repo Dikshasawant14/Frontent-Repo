@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        body{
+            background-color: pink;                         
+        }
+        .face{
+            z-index:1;
+            background-color:aliceblue;
+            height:350px;
+            width:400px;
+            position:relative;
+            top:100px;
+            left:200px;
+            border-radius: 51% 49% 47% 53% / 67% 66% 34% 33% ; 
+             }
+             .ear1{
+                background-color: black;
+                height: 130px;
+                width: 120px;
+                border-radius: 65% 35% 65% 35% / 65% 34% 66% 35% ;
+                position:absolute;
+                top: 100px;
+                left: 200px;
+             }
+             .ear2{
+                background-color: black;
+                height: 130px;
+                width: 120px;
+                border-radius: 35% 70% 28% 75% / 38% 65% 37% 62% ;
+                position:absolute;
+                top: 100px;
+                left: 500px;
+             }
+            .eye1{
+                background-color: black;
+                height: 100px;
+                width: 100px;
+                border-radius: 65% 35% 65% 35% / 65% 35% 65% 35% ;
+                position: relative;
+                top: 100px;
+                left: 50px;
+            }
+            .eye2{
+                background-color: black;
+                height: 100px;
+                width: 100px;
+                border-radius: 35% 65% 35% 65% / 35% 65% 35% 65% ;
+                position: relative;
+                bottom: 30px;
+                left: 200px;
+                
+            }
+
+            .l1{
+                background-color: aliceblue;
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                position:relative;
+                top: 20px;
+                left:50px;
+
+            }
+            .l2{
+                background-color: aliceblue;
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                position:relative;
+                top: 20px;
+                left:20px;
+
+            }
+            .b1 {
+        height: 50px;
+        width: 50px;
+        background-color: pink;
+        border-radius: 50%;
+        position: relative;
+        bottom: 105px;
+        left: 30px;
+        z-index: -1;
+      }
+      .b2 {
+        height: 50px;
+        width: 50px;
+        background-color: pink;
+        border-radius: 50%;
+        position: relative;
+        bottom: 150px;
+        left: 320px;
+        z-index: -1;
+      }
+
+      .nose {
+        height: 45px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: black;
+        position: relative;
+        left: 120px;
+        bottom: 100px;
+      }
+      .m1{
+        height: 25px;
+        width: 40px;
+        border: 4px solid black;
+        border-top: none;
+        border-radius: 100% 0% 47% 53% / 0% 0% 100% 100% ;
+        position: relative;
+        bottom: 100px;
+        left: 100px;
+      }
+      .m2{
+        height: 25px;
+        width: 40px;
+        border: 4px solid black;
+        border-top: none;
+        border-radius: 100% 0% 47% 53% / 0% 0% 100% 100% ;
+        position: relative;
+        bottom: 130px;
+        left: 150px;
+      }
+</style>
+
+</head>
+<body>
+    <div class="ear1"></div>
+    <div class="ear2"></div>
+    <div class="face">
+        <div class="eye1">
+            <div class="l1"></div>
+            <div class="eye2">
+            <div class="l2"></div>
+            </div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="nose"></div>
+            <div class="m1"></div>
+            <div class="m2"></div>
+    </div>
+</body>
+</html>
